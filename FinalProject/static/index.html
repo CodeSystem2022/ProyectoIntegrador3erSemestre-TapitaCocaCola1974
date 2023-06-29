@@ -62,4 +62,49 @@
     </style>
 </head>
 
+<body class="bg-dark text-white">
+    <div class="container">
+        <h1>TapitaCocaCola1974-Proyecto Final</h1>
+        <form id="userForm" action="" class="card card-body text-white" style="background-color: #202020;">
+            <label for="username">Nombre Completo</label>
+            <input 
+                type="text" 
+                name="username"
+                placeholder="Nombre Completo"
+                class="form-control mb-2" 
+                required
+            />
+            <label for="email">Email</label>
+            <input 
+                type="email" 
+                name="email"
+                placeholder="Email@hotmail.com"
+                class="form-control mb-2" 
+                required
+            />
+            <label for="direccion">Direccion</label>
+            <input 
+                type="direccion" 
+                name="direccion"
+                placeholder="Escribir direccion"
+                class="form-control mb-2" 
+                required
+            />
+            <button class="btn btn-primary">Save</button>
+        </form>
+        <div class="contenedor">
+            <button id="botondesple" class="btn btn-primary dropdown-toggle" type="button">
+                Desplegar
+            </button>
+          
+            <div id="desple"> 
+                <ul id="userList" class="list-group">
+                </ul>  
+            </div>
+        </div>
+    </div>
 
+    <script src="/static/main.js"></script>
+</body>
+
+</html>
